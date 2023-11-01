@@ -4,11 +4,12 @@ body {
     /* background-color: antiquewhite; */
     /* display: grid; */
     color: #323235;
+    font-family: 'Playpen Sans', cursive;
 }
 
 h1 {
     text-align: center;
-    font-family: 'Playpen Sans', cursive;
+    /* font-family: 'Playpen Sans', cursive; */
     padding-top: 5rem;
 }
 
