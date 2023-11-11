@@ -145,7 +145,7 @@ li:hover {
 .experiencehead{
     display: flex;
     width: 100%;
-    justify-content: center;
+    /* justify-content: center; */
     font-size: large;
     
 }
