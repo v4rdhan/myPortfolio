@@ -15,13 +15,13 @@ h1 {
 
 li {
     list-style-type: none;
-    float: left;
+    /* float: left; */
     /* margin-left: 13%;
     border-radius: 2mm;
     border-color: black;
     padding-inline-start: 3%;
     justify-content: space-around; */
-    width: 150px;
+    width: 100%;
     text-align: center;
     cursor: pointer;
     /* border: 1px solid black;
@@ -49,13 +49,14 @@ p.overview {
 
 
 ul#headNavigator {
-    /* width: 100%; */
+    width: 100%;
     display: flex;
+    /* padding-left: -40rem; */
     /* align-self: center; */
     /* display: flex; */
-    align-items: center;
+    /* align-items: center; */
     /* align-content: center; */
-    /* justify-content: space-around; */
+    justify-content: space-evenly;
     /* border: 1px solid black; */
 
 }
@@ -68,17 +69,18 @@ div.navigatordiv {
     /* margin: 0 5rem; */
     background-color: #f6f6f6;
     border-radius: 30px;
-    justify-content: center;
+    /* justify-content: center; */
     position: fixed;
     box-shadow: 0 9px 30px rgba(0, 0, 0, .1);
     cursor: pointer;
     margin-left: auto;
     margin-right: auto;
-    max-width: 40rem;
-    z-index: 20;
-    justify-content: space-around;
-    padding-left: 72px;
-    padding-right: 72px;
+    max-width: 45rem;
+    /* z-index: 20; */
+    justify-content: space-between;
+    /* padding-left: auto; */
+    /* padding-right: auto; */
+    /* padding: 2rem 0 0 0; */
     top: 32px;
     bottom: auto;
     left: 0%;
@@ -90,8 +92,8 @@ nav {
     display: flex;
     align-items: center;
     /* align-self: center; */
-    justify-content: space-around;
-    width: 40rem;
+    justify-content: space-evenly;
+    width: 100%;
     /* background-color: #B2D4E8; */
     height: 2.125rem;
     border-radius: 10rem;
@@ -181,12 +183,14 @@ li:hover {
     /* display: flex; */
     width: 100%;
     box-shadow: 0 9px 30px rgba(0, 0, 0, .1);
-    margin-left: auto;
+    margin-left: 13rem;
     margin-right: auto;
     justify-content: center;
     padding: 2rem;
     border-radius: 10px;
-    max-width: 500px;
+    max-width: 600px;
+    /* left: 0%; */
+    /* right: 0%; */
 }
 
 .Qualification{
@@ -208,4 +212,15 @@ li:hover {
 .Qualification_details{
     display: grid;
     /* justify-content: center; */
+}
+
+.Qualification_para1{
+    font-weight: bolder;
+    justify-content: center;
+    display: flex;
+}
+
+.Qualification_para2{
+    display: flex;
+    justify-content: center;
 }
