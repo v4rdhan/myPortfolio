@@ -10,7 +10,8 @@ body {
 h1 {
     text-align: center;
     /* font-family: 'Playpen Sans', cursive; */
-    padding-top: 5rem;
+    padding-top: 20%;
+    /* padding-bottom: 10%; */
 }
 
 li {
@@ -131,6 +132,10 @@ li:hover {
 
 }
 
+h1{
+    top: 50%;
+}
+
 .experiencediv{
     width: 100%;
     justify-content: center;
@@ -180,6 +185,8 @@ li:hover {
 
 .Experience{
     display: flex;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 
 
@@ -200,7 +207,7 @@ li:hover {
 .Qualification{
     display: flex;
     /* justify-content: center; */
-    
+    padding-bottom: 15%;
     
 }
 
